@@ -1,7 +1,9 @@
-import LandingPage from "@/components/LandingPage";
+import VideoBooth from '@/components/VideoBooth';
 
 export default function Home() {
   return (
-    <LandingPage />
+    <main className="min-h-screen flex items-center justify-center">
+      <VideoBooth />
+    </main>
   );
 }
